@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.363);
+    margin: auto;
+    max-width: 1200px;
+}
+
+#container {
+    background: url(Photos/specna-arms-Um9WPLvWV_M-unsplash.jpg);
+    background-size: auto 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#sidebar {
+    width: 50%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items:flex-start;
+}
+img {
+    background-color: rgba(0, 0, 0, 0.55);
+    height: 150px;
+}
+#mainbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+#message {
+    height: 30vh;
+    font-size: 1.6rem;
+    color: rgb(231, 231, 231);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+#message>p {
+    text-align: center;
+}
+fieldset {
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(240, 248, 255, 0.274);
+}
+fieldset>div {
+    width: 200px;
+    margin: 10px;
+}
+label {
+    color: rgb(231, 231, 231);
+}
+input {
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+}
+button {
+    height: 25px;
+    border-radius: 5px;
+    width: 120px;
+}
+button:focus {
+    color: red;
+}
+button:hover {
+    color: rgb(31, 27, 255);
+}
+#submit {
+    height: 20vh;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

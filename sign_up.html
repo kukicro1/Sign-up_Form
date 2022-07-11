@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sign_up.css" type="text/CSS">
+</head>
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <img src="Photos/odin-lined.png">
+        </div>
+
+        <div id="mainbar">
+            <div id="message">
+                <p>Grab your chance and join  us now!</p>
+                <p>Fill in the form below and fulfill your dreams as soldier.</p>
+            </div>
+            
+            <form action="example.com" method="post">
+                <fieldset>
+
+                    <div id="firstColumn">
+                        <div id="firstName" class="columnOne">
+                            <label for="fname">First name</label>
+                            <input type="text" id="fname" name="lname" required>
+                        </div>
+                        <div id="email" class="columnOne">
+                            <label for="user_email">Email</label>
+                            <input type="email" name="user_email" id="user_email" required>
+                        </div>
+                        <div id="password" class="columnOne">
+                            <label for="pass">Password</label>
+                            <input type="password" name="pass" id="pass" required>
+                        </div>
+                    </div>
+
+                    <div id="secondColumn">
+                        <div id="lastName" class="ColumnTwo">
+                            <label for="lname">Last name</label>
+                            <input type="text" name="lname" id="lname" required>
+                        </div>
+                            
+                        <div id="phoneNumber" class="ColumnTwo">
+                            <label for="pnumber">Phone Number</label>
+                            <input type="number" name="pnumber" id="pnumber" required>
+                        </div>
+                            
+                        <div id="confirmPassword" class="ColumnTwo">
+                            <label for="cpass">Confirm Password</label>
+                            <input type="password" name="cpass" id="cpass" required>
+                        </div>
+                    </div> 
+
+                </fieldset>
+                <div id="submit">
+                    <button>Enlist in the Army</button>
+                </div>
+            </form>
+        </div>    
+    </div>
+</body>
+</html>
